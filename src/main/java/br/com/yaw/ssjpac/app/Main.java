@@ -13,7 +13,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
 	
 	public static void main(String[] args) {
-            
+            int x = 1;
             String teste = "123";
 		Locale.setDefault(new Locale("pt","BR"));
 		new ClassPathXmlApplicationContext("META-INF/spring-config.xml");
